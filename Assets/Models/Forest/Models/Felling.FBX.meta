@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 5020f3a89b6ca6b469cc78fe12944d62
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 4150422283763531404
+    second: Felling
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Felling
+      takeName: Felling
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Felling(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Warrior
+      parentName: Felling(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root Warrior
+      parentName: Felling(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LH Weapon
+      parentName: Root Warrior
+      position: {x: -0.3899888, y: 0.8931386, z: -0.04886519}
+      rotation: {x: -0.2822093, y: 0.3204826, z: 0.82033706, w: -0.38038927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: Root Warrior
+      position: {x: 0.00000011175871, y: 0.56529, z: -0.005431505}
+      rotation: {x: 0.000000039079644, y: -0.000000072049794, z: -0.70710665, w: 0.7071069}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: RightUpLeg
+      parentName: Hips
+      position: {x: -0.0330944, y: 0.12705235, z: -0.000038718183}
+      rotation: {x: -0.020221919, y: 0.9997955, z: -0.0000013776762, w: 0.00000003641654}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: RightLeg
+      parentName: RightUpLeg
+      position: {x: -0.20378065, y: -0.00000043818787, z: 0.00000037444406}
+      rotation: {x: -0.000000046566242, y: -0.000000023283064, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: RightFoot
+      parentName: RightLeg
+      position: {x: -0.326202, y: -0.0000012303938, z: 0.00000030996776}
+      rotation: {x: -0.04055101, y: -0.23832679, z: 0.188599, w: 0.9518332}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: Hips
+      position: {x: -0.033094592, y: -0.12705255, z: -0.000038656148}
+      rotation: {x: 0.020472467, y: 0.99979043, z: -0.00000012382898, w: 0.000000012413679}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000004}
+    - name: LeftLeg
+      parentName: LeftUpLeg
+      position: {x: -0.20377977, y: -0.0000016097731, z: -0.0000058414103}
+      rotation: {x: -0.00000018335413, y: -3.5527137e-14, z: -0.000000059604645, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999996}
+    - name: LeftFoot
+      parentName: LeftLeg
+      position: {x: -0.32620278, y: -0.0000035545595, z: 0.00000016092878}
+      rotation: {x: -0.03396521, y: 0.10505533, z: -0.04702171, w: 0.99277323}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0.32509062, y: 0.0000001501868, z: 0.000000067660686}
+      rotation: {x: -0.0000015665136, y: 0.000000021885997, z: 0.000000059604606, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.99999964}
+    - name: RightUpArm
+      parentName: Spine
+      position: {x: -0.24589089, y: 0.19621804, z: 0.00000049091}
+      rotation: {x: -0.50000215, y: 0.49999803, z: 0.50000226, w: -0.49999756}
+      scale: {x: 0.9999998, y: 1.0000006, z: 0.9999999}
+    - name: RightArm
+      parentName: RightUpArm
+      position: {x: -0.2569037, y: -0.0000001780433, z: 0.00000007629395}
+      rotation: {x: -0.00000026822102, y: 0.00000003492403, z: -0.000000014552939, w: 1}
+      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000001}
+    - name: RightHand
+      parentName: RightArm
+      position: {x: -0.25163642, y: 0.000000010408793, z: 0.00000007629395}
+      rotation: {x: -0.0000034666716, y: -1.877626e-14, z: -5.225814e-10, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Head
+      parentName: Spine
+      position: {x: -0.42169142, y: 0.0000002409489, z: 0.00000017093622}
+      rotation: {x: -0.0000026484493, y: 0.000000011640719, z: 0.00000011920923, w: 1}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+    - name: Head_Tip
+      parentName: Head
+      position: {x: -0.49786285, y: -0.00000006100043, z: -0.000000004425674}
+      rotation: {x: -0.00000025451925, y: 0.0000007665051, z: 2.23512e-13, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: LeftUpArm
+      parentName: Spine
+      position: {x: -0.24589103, y: -0.19621754, z: 0.0000007278821}
+      rotation: {x: -0.49999994, y: -0.5000003, z: 0.49999964, w: 0.50000006}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
+    - name: LeftArm
+      parentName: LeftUpArm
+      position: {x: -0.25690228, y: 0.00000051529594, z: -0.00000030517577}
+      rotation: {x: -0.000000923872, y: 0.000000009094691, z: 0.000000058207917, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: LeftHand
+      parentName: LeftArm
+      position: {x: -0.2553366, y: -0.000000023702409, z: 3.5527137e-15}
+      rotation: {x: -0.0000044047756, y: 0.0000000014842807, z: 0.00000001123391, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.9999998}
+    - name: RH Weapon
+      parentName: Root Warrior
+      position: {x: 0.2018289, y: 0.7080058, z: 0.588128}
+      rotation: {x: -0.7071068, y: -0.000000006173854, z: 0.000000010289758, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: axe_01
+      parentName: Felling(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack_log_carrier
+      parentName: Felling(Clone)
+      position: {x: -0.012238292, y: 1.0244163, z: -0.37704375}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
