@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class LocationElement : MonoBehaviour
 {
+    private Location _location;
     private Rigidbody _rigidbody;
     private float _cooldown = 0.3f;
     private float _lifeTimer = 1f;
 
     private void Start()
     {
+        _location = GetComponentInParent<Location>();
         _rigidbody = GetComponent<Rigidbody>();
     }
 
@@ -33,9 +35,21 @@ public class LocationElement : MonoBehaviour
             yield return new WaitForSeconds(_cooldown);
         }
 
+        _rigidbody.isKinematic = false;
         _rigidbody.useGravity = true;
+        _location.RemoveLocationElement(this);
+    }
 
-        yield return new WaitForSeconds(_lifeTimer);
-        Destroy(gameObject);
+    public void StartDestructionTimer()
+    {
+        StartCoroutine(Destroy());
+    }
+
+    private IEnumerator Destroy()
+    {
+        yield return new WaitForSeconds(_lifeTimer / 4);
+
+        _rigidbody.useGravity = true;
+        _rigidbody.isKinematic = false;
     }
 }

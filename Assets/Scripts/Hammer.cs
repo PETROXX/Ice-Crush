@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Hammer : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Hammer : MonoBehaviour
     [SerializeField] private GameObject _hitEffect;
 
     public static string IsPunching = "IsPunching";
+    public event Action OnPunchStarted;
+    public event Action OnPunchFinished;
 
     private float _yPosition;
 
@@ -60,6 +63,7 @@ public class Hammer : MonoBehaviour
     {
         _animator.SetBool(IsPunching, true);
         _punchZoneCollider.enabled = true;
+        OnPunchStarted?.Invoke();
     }
 
     public void FinishPunch()
@@ -69,6 +73,7 @@ public class Hammer : MonoBehaviour
         _hammerMovement.enabled = true;
         _isHammerMovingBack = true;
         _punchZoneCollider.enabled = false;
+        OnPunchFinished?.Invoke();
     }
 
     public void EnableHitEffect()
