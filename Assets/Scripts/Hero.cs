@@ -16,13 +16,6 @@ public class Hero : MonoBehaviour
         DisableRagdoll();
         _groundCheck.OnGroundDestroyed += EnableRagdoll;
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.transform.TryGetComponent<DeathZone>(out _))
-            Destroy(gameObject);
-    }
-
     private void EnableRagdoll()
     {
         _animator.enabled = false;

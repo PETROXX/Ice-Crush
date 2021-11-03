@@ -13,7 +13,7 @@ public class GameLogic : MonoBehaviour
     public event Action OnGameWon;
     public event Action OnGameOver;
 
-    private const int _chanceToFail = 25;
+    private const int _chanceToFail = 15;
     private const int _timeToRestartScene = 3;
 
     private bool _canGameBeWon; 

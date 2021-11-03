@@ -29,7 +29,7 @@ public class LocationElement : MonoBehaviour
         for(int i = 0; i < 3; i++)
         {
             transform.position = new Vector3(transform.position.x,
-                                             transform.position.y - 0.18f,
+                                             transform.position.y - 0.11f,
                                              transform.position.z);
 
             yield return new WaitForSeconds(_cooldown);

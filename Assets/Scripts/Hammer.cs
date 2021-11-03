@@ -24,9 +24,9 @@ public class Hammer : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.touchCount > 0)
+        if(InputWrapper.Input.touchCount > 0)
         {
-            Touch touch = Input.GetTouch(0);
+            Touch touch = InputWrapper.Input.GetTouch(0);
 
             if(touch.phase == TouchPhase.Ended)
             {
